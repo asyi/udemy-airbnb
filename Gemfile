@@ -26,6 +26,8 @@ gem 'bootstrap-sass'
 
 gem 'devise'
 
+gem "paperclip"
+
 gem 'turbolinks', '~> 5'
 gem 'jquery-rails'
 
