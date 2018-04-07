@@ -10,7 +10,10 @@ class ApplicationController < ActionController::Base
                                                               :lastname,
                                                               :avatar,
                                                               :phone_number,
-                                                              :description
+                                                              :description,
+                                                              :email,
+                                                              :password,
+                                                              :password_confirmation
                                                              ])
   end
   

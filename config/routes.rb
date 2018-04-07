@@ -4,7 +4,9 @@ Rails.application.routes.draw do
                                       :sign_in => 'login',
                                       :sign_out => 'logout',
                                       :edit => 'profile'
-                                    }
+                                    },
+                     # This controller permits Profile edits without requiring current password input
+                     :controllers => { :registrations => 'registrations' }
   root 'pages#home'
 
   resources :users, only: [:show]
