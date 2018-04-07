@@ -28,6 +28,8 @@ gem 'devise'
 
 gem "paperclip"
 
+gem 'toastr-rails'
+
 gem 'turbolinks', '~> 5'
 gem 'jquery-rails'
 
