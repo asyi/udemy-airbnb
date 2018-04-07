@@ -6,4 +6,6 @@ Rails.application.routes.draw do
                                       :edit => 'profile'
                                     }
   root 'pages#home'
+
+  resources :users, only: [:show]
 end
