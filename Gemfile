@@ -24,6 +24,8 @@ gem 'coffee-rails', '~> 4.2'
 # Bootstrap
 gem 'bootstrap-sass'
 
+gem 'devise'
+
 gem 'turbolinks', '~> 5'
 gem 'jquery-rails'
 
